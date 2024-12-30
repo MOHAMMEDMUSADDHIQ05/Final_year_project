@@ -1,0 +1,117 @@
+/* Admin Login Form Styling */
+.form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 5rem auto;
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ff5722;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background: linear-gradient(135deg, #ff5722, #e64a19);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #e64a19, #d84315);
+  }
+  
+  .message {
+    margin-top: 1rem;
+  }
+  
+  .message a {
+    color: #ff5722;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .message a:hover {
+    text-decoration: underline;
+  }
+/* General Styles for Mobile Devices */
+@media screen and (max-width: 768px) {
+    /* Make the navbar items stack vertically on mobile */
+    .navbar ul {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .navbar ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .navbar ul li a {
+      font-size: 1rem; /* Adjust font size */
+      padding: 12px 20px; /* Adjust padding for mobile */
+    }
+  
+    /* Make the form container width smaller on mobile */
+    .form-container {
+      width: 90%;
+      margin: 2rem auto;
+    }
+  
+    /* Adjust input fields and button size */
+    input,
+    button {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  }
+  
+  /* Smaller Screen Adjustments */
+  @media screen and (max-width: 480px) {
+    /* Reduce font size and input sizes further for smaller screens */
+    .form-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .navbar ul li a {
+      font-size: 0.9rem;
+      padding: 10px 15px;
+    }
+  
+    .form-container {
+      padding: 1rem;
+    }
+  
+    input,
+    button {
+      font-size: 0.9rem;
+      padding: 0.9rem;
+    }
+  }
+    

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Influencers Marketing Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <!-- Menu Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html" class="active">Login</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <li><a href="admin-login.html">Admin</a></li>
+    </ul>
+  </nav>
+
+  <!-- Login Form -->
+  <div class="form-container">
+    <h2>User Login</h2>
+    <form action="dashboard.html" method="POST">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <div class="message">
+      <p>New here? <a href="signup.html">Sign up</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Influencers Marketing Platform.</p>
+  </footer>
+</body>
+</html>
